@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title></title>
+        <style>
+            body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.bg-blur {
+
+    position: fixed;
+
+    background-image: url(./cave.png);
+    background-position: center;
+    background-size: cover;
+
+    height: 110vh;
+    width: 110vw;
+
+    top: -15px;
+    right: -15px;
+    overflow: hidden;
+    
+    filter: blur(8px);
+    z-index: 0;
+}
+
+.content {
+    align-self: center;
+    color: white;
+    text-align: center;
+    z-index: 1;
+}
+        </style>
+    </head>
+    <body>
+        <div class="bg-blur"></div>
+        <div class="content">
+            <h1>The Minecraft Anarchy Archive</h1>
+            <p> UNDER CONSTRUCTION</p>
+        </div>
+    </body>
+</html>
