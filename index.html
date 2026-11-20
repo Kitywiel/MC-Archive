@@ -4,39 +4,50 @@
         <meta charset="utf-8" />
         <title>The Mc Archive</title>
         <style>
+            @import url('https://fonts.cdnfonts.com/css/minecraft-4');
+
             body {
-    margin: 0;
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-}
+                margin: 0;
+                align-self: center;
+                color: white;
+                text-align: center;
+                min-height: 100vh;
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+            }
 
-.bg-blur {
+            .bg-blur {
+                /* background */
+                background-image: url(./imgs/cave.png);
+                background-position: center;
+                background-size: cover;
 
-    position: fixed;
+                /* size */
+                height: 110vh;
+                width: 110vw;
 
-    background-image: url(./cave.png);
-    background-position: center;
-    background-size: cover;
+                /* position */
+                position: fixed;
+                top: -15px;
+                right: -15px;
 
-    height: 110vh;
-    width: 110vw;
+                /* extras */
+                overflow: hidden;
+                filter: blur(8px);
+                z-index: 0;
+                }
+                
+            .content {
+                /* text */
+                color: white;
+                text-align: center;
 
-    top: -15px;
-    right: -15px;
-    overflow: hidden;
-    
-    filter: blur(8px);
-    z-index: 0;
-}
-
-.content {
-    align-self: center;
-    color: white;
-    text-align: center;
-    z-index: 1;
-}
+                /* others */
+                font-family: 'Minecraft', sans-serif;
+                align-self: center;
+                z-index: 1;
+        }
         </style>
     </head>
     <body>
