@@ -1,60 +1,147 @@
-<!doctype html>
+<!DOCTYPE html>
+
 <html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <title>The Mc Archive</title>
-        <style>
-            @import url('https://fonts.cdnfonts.com/css/minecraft-4');
 
-            body {
-                margin: 0;
-                align-self: center;
-                color: white;
-                text-align: center;
-                min-height: 100vh;
-                display: flex;
-                justify-content: center;
-                flex-direction: column;
-            }
+<head>
+  <!-- general data -->
+  <meta charset="UTF-8">
+  <title>Minecraft Anarchy Archive</title>
 
-            .bg-blur {
-                /* background */
-                background-image: url(./cave.png);
-                background-position: center;
-                background-size: cover;
+  <!-- meta data -->
+  <!-- General -->
+  <meta name="title" content="Minecraft anarchy archive">
+  <meta name="description" content="an archive website focused on archiving minecraft anarchy servers">
+  <meta name="keywords" content="minecraft, anarchy, server, archive, survival">
+  <meta name="author" content="mc anarchy archive">
+  <meta name="application-name" content="Archive Server">
+  <meta name="theme-color" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-                /* size */
-                height: 110vh;
-                width: 110vw;
+  <!-- robots -->
+  <meta name="robots" content="index, follow">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
 
-                /* position */
-                position: fixed;
-                top: -15px;
-                right: -15px;
+  <!-- Dublin core -->
+  <meta name="DC.title" content="Minecraft anarchy archive">
+  <meta name="DC.creator" content="mc anarchy archive">
+  <meta name="DC.description" content="an archive website focused on archiving minecraft anarchy servers">
+  <meta name="DC.subject" content="minecraft, anarchy, server, archive, survival">
+  <meta name="DC.type" content="Text">
+  <meta name="DC.identifier" content="https://mc-archive.world">
+  <meta name="DC.format" content="text/html">
+  <meta name="DC.language" content="en">
+  <meta name="DC.rights" content="Copyright © 2026 MC-Archive">
 
-                /* extras */
-                overflow: hidden;
-                filter: blur(8px);
-                z-index: 0;
-                }
-                
-            .content {
-                /* text */
-                color: white;
-                text-align: center;
+  <!-- Twitter Cards -->
+  <meta name="twitter:cards" content="summary_large_image">
+  <meta name="twitter:title" content="Minecraft anarchy archive">
+  <meta name="twitter:description" content="an archive website focused on archiving minecraft anarchy servers">
+  <meta name="twitter:image" content="https://test.mc-archive.world/img/general/coming_soon_img.png">
 
-                /* others */
-                font-family: 'Minecraft', sans-serif;
-                align-self: center;
-                z-index: 1;
-        }
-        </style>
-    </head>
-    <body>
-        <div class="bg-blur"></div>
-        <div class="content">
-            <h1>The Minecraft Anarchy Archive</h1>
-            <p> UNDER CONSTRUCTION</p>
-        </div>
-    </body>
+  <!-- Open Graph -->
+  <meta property="og:title" content="Minecraft anarchy archive">
+  <meta property="og:url" content="https://mc-archive.world">
+  <meta property="og:description" content="an archive website focused on archiving minecraft anarchy servers">
+  <meta property="og:site_name" content="mc-archive">
+  <meta property="og:image" content="https://test.mc-archive.world/img/general/coming_soon_img.png">
+  <meta property="og:type" content="website"/>
+
+  <!-- oEmbed -->
+
+  <!-- discord -->
+  <meta name="theme-color" content="#5865F2">
+
+  <!-- MC-Archive -->
+  <meta name="mcarchive:rights" content="Archive metadata maintained by MC-Archive">
+  <meta name="" content="">
+
+  <!-- others -->
+  <link rel="shortcut icon" href="./img/general/Internet_Archive_Logo.svg" type="image/x-icon">
+  <link rel="stylesheet" href="https://test.mc-archive.world/css/general.css">
+
+  <Style>
+    @import url('https://fonts.cdnfonts.com/css/minecraft-4');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.background {
+  /* background */
+  background-image: url(https://test.mc-archive.world/img/10b10t/cave_10b10t-com.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /* size */
+  height: 105vh;
+  width: 105vw;
+
+  /* position */
+  position: fixed;
+  top: -15px;
+  right: -15px;
+
+  /* others */
+  filter: blur(8px);
+  z-index: 0;
+}
+
+main {
+  /* position */
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  /* size */
+  height: 100vh;
+  width: 100vw;
+}
+
+footer {
+  /* position */
+  position: fixed;
+  bottom: 0;
+  right: 0;
+
+  /* size */
+  height: 7.5vh;
+  width: 100vw;
+
+  background-color: #252525;
+}
+
+section {
+  height: 92.5vh;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.h1 {
+  font-family: 'Minecraft', sans-serif;
+  color: #fff;
+  font-size: 10vw;
+}
+
+.h2 {
+  font-family: 'Minecraft', sans-serif;
+  color: #fff;
+  font-size: 6vw;
+}
+  </Style>
+</head>
+
+<body>
+  <div class="background"></div>
+  <main>
+    <section>
+      <p class="h1">Anarchy Archive</p>
+      <p class="h2">Coming soon</p>
+    </section>
+  </main>
+</body>
+
 </html>
